@@ -114,7 +114,7 @@ You can find a complete implementation at [Stackblatz - Angular Secure Config](h
    import { BrowserModule } from "@angular/platform-browser";
    import { AppRoutingModule } from "./app-routing.module";
    import { AppComponent } from "./app.component";
-   import { ConfigService } from "aki-res";
+   import { ConfigService } from "aki-resources";
    import { AppConfig } from "../shared/models/app-config";
    ```
 
@@ -151,7 +151,7 @@ You can find a complete implementation at [Stackblatz - Angular Secure Config](h
 
 ## Usage
 
-The `ConfigService` from the `aki-res` package provides a streamlined way to manage and access your application's configuration settings. Here’s a step-by-step guide on how to integrate and use the `ConfigService` in your Angular components.
+The `ConfigService` from the `aki-resources` package provides a streamlined way to manage and access your application's configuration settings. Here’s a step-by-step guide on how to integrate and use the `ConfigService` in your Angular components.
 
 ## Example: Displaying Application Configuration Data
 
@@ -165,7 +165,7 @@ Begin by importing the necessary modules and services into your component.
 
 ```typescript
 import { Component } from "@angular/core";
-import { ConfigService } from "aki-res";
+import { ConfigService } from "aki-resources";
 import { AppConfig, App } from "../shared/models/app-config";
 ```
 
