@@ -1,7 +1,7 @@
 import { platformBrowserDynamic } from "@angular/platform-browser-dynamic";
 import { AppModule } from "./app/app.module";
 import { enableProdMode } from "@angular/core";
-import { ConfigService } from "thiqah-res";
+import { ConfigService } from "aki-resources";
 import { AppConfig } from "./shared/models/app-config";
 
 const envConfigService = new ConfigService<AppConfig>();
